@@ -1,0 +1,33 @@
+#district-start-end, #district-linked {
+    display: flex;
+}
+
+#info {
+    display: flex;
+    justify-content: space-between;
+}
+
+#info h1 {
+    font-weight: normal;
+}
+
+.left {
+    border: solid;
+    border-color: blue;
+    padding: 1em;
+    color: green;
+}
+
+.right {
+    font-style: italic;
+    text-align: right;
+}
+
+#slider, .input-slider {
+    width: 250px;
+    /*height: 50px;*/
+}
+
+.slider-text {
+    margin: 5px;
+}
